@@ -9,6 +9,10 @@ To solve this issue, ensure that you are using the correct URL and spellings, as
 
 This is a HTTP 400 error (bad request). Like the error above, ensure you are including the [build] parameter which is also required for all softwares but vanilla.
 
+**Include Loader Version!**
+
+This is a HTTP 400 error (bad request). Ensure you are including the [loader] parameter which is required when using fabric.
+
 **Invalid Software Type!**
 
 This is a HTTP 400 error (bad request). This means that the software string inputted does not match any softwares we provide for download. This is case sensitive, so make sure the software string is all lowercase. Find a list of all softwares on the info page.
@@ -20,6 +24,23 @@ This is a HTTP 400 error (bad request). The version number you have inputted is 
 **Invalid Build Number!**
 
 This is a HTTP 400 error (bad request). The build number you have inputted is not valid. Ensure the build number is correct and relates to the version you have inputted. Builds per version usually don't start with 0 or 1.
+
+**Invalid Loader Version!**
+
+This is a HTTP 400 error (bad request). The loader version for fabric software you have inputted is not valid. Ensure it is correct; The version is usually in the format
+X.XX.X(X).
+
+**Loader Version For Fabric Must Be At Least 0.12.0!**
+
+This is a HTTP 400 error (bad request). The fabric meta API only allows you to use minimum version 0.12.0 for the fabric loader on 'unattended server installs'.
+
+**Invalid Installer Version!**
+
+This is a HTTP 400 error (bad request). The installer version for fabric software you have inputted is not valid. Ensure it is correct; The version is usually in the format X.X.X.
+
+**Installer Version For Fabric Must Be At Least 0.8.0!**
+
+This is a HTTP 400 error (bad request). The fabric meta API only allows you to use minimum version 0.8.0 for the fabric installer on 'unattended server installs'.
 
 Common mistakes:
 

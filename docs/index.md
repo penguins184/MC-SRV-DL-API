@@ -5,3 +5,5 @@ Contents:
 - [Getting Started](/pages/start.md)
 - [Troubleshooting](/pages/help.md)
 - [More Resources](/pages/resources.md)
+
+Base URL: https://mc-srv-dl-api-production.up.railway.app/

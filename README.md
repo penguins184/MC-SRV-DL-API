@@ -15,6 +15,7 @@ Supported Softwares:
 - Purpur
 - Folia
 - Velocity
+- Fabric
 - Sponge (experimental)
 
 To suggest new softwares, please open an issue.
@@ -24,6 +25,8 @@ To suggest new softwares, please open an issue.
 Format: `/download/{SOFTWARE}/{VERSION}/{BUILD}`.
 
 Note: `{VERSION}` and `{BUILD}` values can be `'latest'`. All of the parameters are required, except for `{BUILD}` when using Vanilla.
+
+Extra note: `${BUILD}` is equivalent to the loader version when using Fabric. To specify installer value, use `/?installer=...`; If omitted, it will default to latest.
 
 ## Notes
 

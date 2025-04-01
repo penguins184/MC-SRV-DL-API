@@ -8,6 +8,7 @@ Supported softwares:
 - Purpur
 - Folia
 - Velocity
+- Fabric
 - Sponge (experimental)
 
 Softwares to be added:
