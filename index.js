@@ -2,7 +2,7 @@
     MC-SRV-DL-API V2
 
     Code Credit License - LICENSE.md
-    Alex Wegrzyn
+    Penguins184
 */
 import paper from "./sources/paper.js";
 import purpur from "./sources/purpur.js";
