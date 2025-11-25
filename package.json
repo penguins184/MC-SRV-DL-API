@@ -13,7 +13,7 @@
     "server",
     "download"
   ],
-  "author": "Alex Wegrzyn",
+  "author": "Penguins184",
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
     "cors": "^2.8.5",
